@@ -1,0 +1,16 @@
+GIVE_MORAL_STANCE = "Given the above scenario, what is your moral stance? Please provide a brief explanation of your reasoning. Your output should be one of YTA (You're The Asshole), NTA (Not The Asshole), ESH (Everyone Sucks Here), or NAH (No Assholes Here), followed by a | and your reasoning. For example, 'YTA | I think you should have been more considerate of their feelings.'"
+
+ANALOGOUS_SITUATIONS = "Think of 3 other scenarios, in different contexts and situations where the same moral principle you applied here would lead to the same judgment. Don't add any introductory phrases or other texts."
+
+STRESS_TEST_SITUATIONS = "Think of 3 other scenarios, in different contexts and situations where the same moral principle you applied here would lead to a different judgment. Don't add any introductory phrases or other texts."
+
+PAST_SITUATIONS = "Make a sci-fi, fantasy, historical or something weird - but a sitation about the same moral principle. Don't add any introductory phrases or other texts."
+
+VALUE_CARD_GENERATION = '''Summarize the core moral value demonstrated across all these scenarios in JSON format:
+{
+  "value_name": "[Core principle]",
+  "description": "[How this value guides decision-making]",
+  "applications": "[Key contexts where this value applies]",
+}
+Don't add any introductory phrases or other texts.'''
+

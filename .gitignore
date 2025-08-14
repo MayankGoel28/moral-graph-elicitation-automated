@@ -211,3 +211,8 @@ __marimo__/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints
 reddit_data/
+anecdotes.tar.gz
+anecdotes/
+dilemmas.tar.gz
+dilemmas/
+selected_dilemmas.pkl
